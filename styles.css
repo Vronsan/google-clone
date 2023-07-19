@@ -1,0 +1,197 @@
+body {
+    background: white;
+    margin: 8;
+    padding: 621 601;
+    box-sizing: content-box;
+}
+.display-inline {
+display: inline;
+}
+#backgroundImage {
+    border: none;
+    height: 100%;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+}
+
+header {
+    height: 67px;
+    width: 100%;
+    border: solid white 1px;
+}
+
+nav {
+   height: 47px;
+   display: flex;
+   justify-content: right;
+   align-items: center; 
+   padding: 8px;
+}
+.container-image img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin: auto;
+    padding: auto;
+}
+.menu {
+    border-radius: 50%;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.perfil {
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+
+.links a {
+    display: inline-bloc;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    color: black;
+    text-decoration: none;
+    border: none;
+    margin-right: 5px;
+    padding: 5px;
+    justify-content: space-between
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 100px; 
+    text-align: center;
+}
+
+main .main-logo {
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .logo {
+    width: 272px;
+     height: 92px;
+     margin: 0px 0px 30px;
+}
+ 
+main .main-input {
+    width: 530px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    
+}
+
+main .main-input-container {
+    width: 515px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: i;
+}
+
+main .main-input-container:hover {
+    box-shadow: 6px 1px 6px 0 #20212447;
+
+}
+
+.main-input .serch-icon {
+    width: 18px;
+    height: 18px;
+    padding-left: 30px;
+    margin-left: 16px;
+    align-self: center;
+    }
+
+main .micro-camera {
+    display: flex;
+}
+.main-input .camera {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.main-input .micro {
+    width: 28px;
+    height: 30px;
+    align-self: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+main .main-input-container input {
+    width: 449px;
+    height: 40px;
+    padding: 1px 50px 1px 50px;
+    border: none;
+    outline: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 16px;  
+    display: flex;
+    justify-content: center;
+
+}
+
+main .main-input .main-input-container:hover {
+box-shadow: 6px 1px 6px 1px #d0d07;
+}
+
+main .main-buttons {
+    width: 560px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons div button {
+height: 36px;
+background-color: #f6f6f6;
+border: none;
+border-radius: 10%;
+padding: 0px 16px;
+margin: 0px 4px;
+cursor: pointer;
+}
+
+main .main-buttons div button:hover {
+    border: 1 px solid #c1c1c1;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+    background-color: #f8f8f8;
+    }
+
+
+   
+
+
