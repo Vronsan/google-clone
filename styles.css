@@ -162,7 +162,7 @@ main .main-input-container input {
 }
 
 main .main-input .main-input-container:hover {
-box-shadow: 6px 1px 6px 1px #d0d07;
+box-shadow: 6px 1px 6px 1px gray;
 }
 
 main .main-buttons {
